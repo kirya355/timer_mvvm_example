@@ -215,7 +215,6 @@ class _MainPageState extends State<MainPage> with WidgetsBindingObserver {
   @override
   void didChangeAppLifecycleState(AppLifecycleState state) {
     setState(() {
-      print("state changed to " + state.index.toString());
       _notification = state;
     });
   }
